@@ -165,4 +165,3 @@ grep "\[INSTALLED\]" "$LOG_FILE" | sed 's/\[INSTALLED\] //'
 
 echo -e "\nTo apply PATH changes, run:"
 echo "source $SHELL_CONFIG"
-
